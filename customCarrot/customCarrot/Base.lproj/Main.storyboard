@@ -37,7 +37,7 @@
                             <constraint firstItem="WRx-Mk-Ly1" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="cMT-uO-9aA"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="cR7-BH-lEf"/>
+                    <navigationItem key="navigationItem" title="home" id="cR7-BH-lEf"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -73,13 +73,13 @@
                             <constraint firstItem="COZ-8p-CuC" firstAttribute="centerX" secondItem="YFc-ZK-Vbg" secondAttribute="centerX" id="ayh-aR-sUn"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="XtO-6V-MVB"/>
+                    <navigationItem key="navigationItem" title="neighborhood" id="XtO-6V-MVB"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YXm-5Y-VE1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-416" y="1544"/>
         </scene>
-        <!--Nearby Controller-->
+        <!--nearby-->
         <scene sceneID="S7c-i9-nUp">
             <objects>
                 <viewController id="rYj-aP-7o4" customClass="nearbyController" customModule="customCarrot" customModuleProvider="target" sceneMemberID="viewController">
@@ -108,7 +108,7 @@
                             <constraint firstItem="m2S-jn-Ny0" firstAttribute="centerX" secondItem="qYi-mV-SbS" secondAttribute="centerX" id="nbR-vn-Hy8"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="vnx-3w-9tb"/>
+                    <navigationItem key="navigationItem" title="nearby" id="vnx-3w-9tb"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gtu-Df-2fb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -135,9 +135,9 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LS2-g9-lP3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="23.664122137404579" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="375" y="25"/>
         </scene>
-        <!--Chat Controller-->
+        <!--chat-->
         <scene sceneID="r2l-Np-Ibu">
             <objects>
                 <viewController id="BMZ-OA-Ciu" customClass="chatController" customModule="customCarrot" customModuleProvider="target" sceneMemberID="viewController">
@@ -166,7 +166,7 @@
                             <constraint firstItem="wJR-Zi-SEM" firstAttribute="height" secondItem="vM7-oV-eW2" secondAttribute="height" multiplier="0.153756" id="uLr-WT-b8O"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="vdy-Ti-YLr"/>
+                    <navigationItem key="navigationItem" title="chat" id="vdy-Ti-YLr"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RIi-b6-r5X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -182,11 +182,21 @@
                         <viewLayoutGuide key="safeArea" id="EGl-up-JjB"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="I72-Qd-jjp"/>
+                    <navigationItem key="navigationItem" id="I72-Qd-jjp">
+                        <nil key="title"/>
+                        <barButtonItem key="rightBarButtonItem" image="gearshape.fill" catalog="system" style="plain" id="A2W-yY-vLO">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="1e6-eB-OfU">
+                                <rect key="frame" x="-37" y="-17" width="87" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2NW-K3-04G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1955" y="1544"/>
+            <point key="canvasLocation" x="1954.9618320610687" y="1543.661971830986"/>
         </scene>
         <!--Home-->
         <scene sceneID="S1f-OK-6my">
@@ -287,6 +297,7 @@
     <resources>
         <image name="doc" catalog="system" width="115" height="128"/>
         <image name="doc.fill" catalog="system" width="115" height="128"/>
+        <image name="gearshape.fill" catalog="system" width="128" height="123"/>
         <image name="house" catalog="system" width="128" height="104"/>
         <image name="house.fill" catalog="system" width="128" height="104"/>
         <image name="location" catalog="system" width="128" height="121"/>
