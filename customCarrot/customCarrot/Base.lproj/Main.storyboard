@@ -186,10 +186,10 @@
                         <nil key="title"/>
                         <barButtonItem key="rightBarButtonItem" image="gearshape.fill" catalog="system" style="plain" id="A2W-yY-vLO">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="1e6-eB-OfU">
-                                <rect key="frame" x="-37" y="-17" width="87" height="33"/>
+                                <rect key="frame" x="290" y="5" width="87" height="34.333333333333336"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="gearshape.fill" catalog="system"/>
                             </button>
                         </barButtonItem>
                     </navigationItem>
