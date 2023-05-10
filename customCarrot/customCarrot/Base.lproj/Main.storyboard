@@ -184,9 +184,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="I72-Qd-jjp">
                         <nil key="title"/>
-                        <barButtonItem key="rightBarButtonItem" image="gearshape.fill" catalog="system" style="plain" id="A2W-yY-vLO">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="1e6-eB-OfU">
-                                <rect key="frame" x="290" y="5" width="87" height="34.333333333333336"/>
+                        <barButtonItem key="rightBarButtonItem" id="Cld-9H-CvE">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="i9Q-bA-VtT">
+                                <rect key="frame" x="-37" y="-17" width="87" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="gearshape.fill" catalog="system"/>
@@ -196,7 +196,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2NW-K3-04G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1954.9618320610687" y="1543.661971830986"/>
+            <point key="canvasLocation" x="1955" y="1544"/>
         </scene>
         <!--Home-->
         <scene sceneID="S1f-OK-6my">
