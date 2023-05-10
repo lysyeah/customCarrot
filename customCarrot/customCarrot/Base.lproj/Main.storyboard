@@ -11,7 +11,6 @@
         <!--Home-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" userLabel="Home" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
@@ -31,11 +30,12 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="BdL-B0-Lgn" secondAttribute="bottom" id="zyg-No-h2a"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" image="homekit" catalog="system" id="LXr-AZ-AeS"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" selectedImage="house.fill" id="LXr-AZ-AeS"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="764" y="4"/>
+            <point key="canvasLocation" x="-1172" y="799"/>
         </scene>
         <!--동네생활-->
         <scene sceneID="H2F-th-eEu">
@@ -59,11 +59,11 @@
                             <constraint firstItem="YFc-ZK-Vbg" firstAttribute="trailing" secondItem="6fP-ZA-sNf" secondAttribute="trailing" id="zjM-nQ-fCA"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="동네생활" image="doc" catalog="system" id="Yw3-eg-R8W"/>
+                    <tabBarItem key="tabBarItem" title="동네생활" image="doc" catalog="system" selectedImage="doc.fill" id="Yw3-eg-R8W"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YXm-5Y-VE1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1430" y="4"/>
+            <point key="canvasLocation" x="-494" y="799"/>
         </scene>
         <!--내 근처-->
         <scene sceneID="S7c-i9-nUp">
@@ -87,11 +87,11 @@
                             <constraint firstItem="qYi-mV-SbS" firstAttribute="bottom" secondItem="Kjj-oP-txO" secondAttribute="bottom" id="ymm-Rj-Ahs"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="내 근처" image="location" catalog="system" id="nKA-HM-Jyu"/>
+                    <tabBarItem key="tabBarItem" title="내 근처" image="location" catalog="system" selectedImage="location.fill" id="nKA-HM-Jyu"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gtu-Df-2fb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2065" y="4"/>
+            <point key="canvasLocation" x="175" y="799"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="T2L-CO-Gh2">
@@ -145,6 +145,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="GAO-62-y9k"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="bfd-fX-AEi">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -182,11 +183,11 @@
                             <constraint firstItem="r8i-js-qde" firstAttribute="trailing" secondItem="N6R-zv-hUd" secondAttribute="trailing" id="aUX-7X-204"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="채팅" image="rectangle.3.group.bubble.left" catalog="system" id="FVV-My-WaJ"/>
+                    <tabBarItem key="tabBarItem" title="채팅" image="rectangle.3.group.bubble.left" catalog="system" selectedImage="rectangle.3.group.bubble.left.fill" id="FVV-My-WaJ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RIi-b6-r5X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2703" y="4"/>
+            <point key="canvasLocation" x="871" y="799"/>
         </scene>
         <!--나의 당근-->
         <scene sceneID="OSr-wa-awC">
@@ -198,19 +199,24 @@
                         <viewLayoutGuide key="safeArea" id="EGl-up-JjB"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="나의 당근" image="person" catalog="system" id="cYo-sA-3bQ"/>
+                    <tabBarItem key="tabBarItem" title="나의 당근" image="person" catalog="system" selectedImage="person.fill" id="cYo-sA-3bQ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2NW-K3-04G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3360" y="4"/>
+            <point key="canvasLocation" x="1560" y="799"/>
         </scene>
     </scenes>
     <resources>
         <image name="doc" catalog="system" width="115" height="128"/>
-        <image name="homekit" catalog="system" width="128" height="104"/>
+        <image name="doc.fill" catalog="system" width="115" height="128"/>
+        <image name="house" catalog="system" width="128" height="104"/>
+        <image name="house.fill" catalog="system" width="128" height="104"/>
         <image name="location" catalog="system" width="128" height="121"/>
+        <image name="location.fill" catalog="system" width="128" height="119"/>
         <image name="person" catalog="system" width="128" height="121"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
         <image name="rectangle.3.group.bubble.left" catalog="system" width="128" height="110"/>
+        <image name="rectangle.3.group.bubble.left.fill" catalog="system" width="128" height="110"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
