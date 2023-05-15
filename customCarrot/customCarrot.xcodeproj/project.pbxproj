@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA20B4ED2A1253620020B70E /* MyCarrotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA20B4EC2A1253620020B70E /* MyCarrotViewController.swift */; };
+		DA20B4EF2A1255050020B70E /* MyCarrotHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA20B4EE2A1255050020B70E /* MyCarrotHeader.xib */; };
+		DA20B4F12A1255D30020B70E /* MyCarrotHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA20B4F02A1255D30020B70E /* MyCarrotHeader.swift */; };
 		F4C020792A0B6DC600480A74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C020782A0B6DC600480A74 /* AppDelegate.swift */; };
 		F4C0207B2A0B6DC600480A74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C0207A2A0B6DC600480A74 /* SceneDelegate.swift */; };
 		F4C020802A0B6DC600480A74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C0207E2A0B6DC600480A74 /* Main.storyboard */; };
@@ -23,6 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA20B4EC2A1253620020B70E /* MyCarrotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCarrotViewController.swift; sourceTree = "<group>"; };
+		DA20B4EE2A1255050020B70E /* MyCarrotHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCarrotHeader.xib; sourceTree = "<group>"; };
+		DA20B4F02A1255D30020B70E /* MyCarrotHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCarrotHeader.swift; sourceTree = "<group>"; };
 		F4C020752A0B6DC600480A74 /* customCarrot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = customCarrot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4C020782A0B6DC600480A74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4C0207A2A0B6DC600480A74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,8 +84,11 @@
 				F4C020902A0B71A300480A74 /* chatController.swift */,
 				F4C0208E2A0B70BA00480A74 /* nearbyController.swift */,
 				F4C0208C2A0B705800480A74 /* neighborhoodController.swift */,
+				DA20B4EC2A1253620020B70E /* MyCarrotViewController.swift */,
 				F4C020782A0B6DC600480A74 /* AppDelegate.swift */,
 				F4C0207A2A0B6DC600480A74 /* SceneDelegate.swift */,
+				DA20B4EE2A1255050020B70E /* MyCarrotHeader.xib */,
+				DA20B4F02A1255D30020B70E /* MyCarrotHeader.swift */,
 				F4C0207E2A0B6DC600480A74 /* Main.storyboard */,
 				F4C020812A0B6DC800480A74 /* Assets.xcassets */,
 				F4C020832A0B6DC800480A74 /* LaunchScreen.storyboard */,
@@ -148,6 +157,7 @@
 			files = (
 				F4C020852A0B6DC800480A74 /* LaunchScreen.storyboard in Resources */,
 				F4C020822A0B6DC800480A74 /* Assets.xcassets in Resources */,
+				DA20B4EF2A1255050020B70E /* MyCarrotHeader.xib in Resources */,
 				F4C020802A0B6DC600480A74 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -160,8 +170,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4C020992A0B79F700480A74 /* navigationConroller.swift in Sources */,
+				DA20B4F12A1255D30020B70E /* MyCarrotHeader.swift in Sources */,
 				F4C0208D2A0B705800480A74 /* neighborhoodController.swift in Sources */,
 				F4C0209B2A0B7D8800480A74 /* customCell.swift in Sources */,
+				DA20B4ED2A1253620020B70E /* MyCarrotViewController.swift in Sources */,
 				F4C020792A0B6DC600480A74 /* AppDelegate.swift in Sources */,
 				F4C0208F2A0B70BA00480A74 /* nearbyController.swift in Sources */,
 				F4C0207B2A0B6DC600480A74 /* SceneDelegate.swift in Sources */,
