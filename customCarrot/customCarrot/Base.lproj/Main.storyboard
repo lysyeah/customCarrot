@@ -240,7 +240,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50,000원" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g7F-5O-phy">
                                                         <rect key="frame" x="151" y="24.333333333333343" width="89.666666666666686" height="26.333333333333329"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NDN-Jt-Sun">
@@ -269,11 +269,39 @@
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dTE-c5-pwB" userLabel="ViewCharge">
                                                                 <rect key="frame" x="0.0" y="0.0" width="196.66666666666666" height="75"/>
+                                                                <subviews>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cGJ-bn-IcX">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="196.66666666666666" height="75"/>
+                                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <state key="normal" title="Button"/>
+                                                                        <buttonConfiguration key="configuration" style="plain" image="plus" catalog="system" title="충전"/>
+                                                                    </button>
+                                                                </subviews>
                                                                 <color key="backgroundColor" red="0.65903765567772665" green="0.76871567964553833" blue="0.76264880722701545" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <constraints>
+                                                                    <constraint firstItem="cGJ-bn-IcX" firstAttribute="top" secondItem="dTE-c5-pwB" secondAttribute="top" id="2tL-mW-5Lp"/>
+                                                                    <constraint firstAttribute="trailing" secondItem="cGJ-bn-IcX" secondAttribute="trailing" id="Iox-7T-gZv"/>
+                                                                    <constraint firstAttribute="bottom" secondItem="cGJ-bn-IcX" secondAttribute="bottom" id="ZXL-71-td0"/>
+                                                                    <constraint firstItem="cGJ-bn-IcX" firstAttribute="leading" secondItem="dTE-c5-pwB" secondAttribute="leading" id="hVL-Jx-CDl"/>
+                                                                </constraints>
                                                             </view>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gIs-qQ-TRY" userLabel="ViewTranfer">
                                                                 <rect key="frame" x="196.66666666666663" y="0.0" width="196.33333333333337" height="75"/>
+                                                                <subviews>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E5e-Q7-4gj">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="196.33333333333334" height="75"/>
+                                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <state key="normal" title="Button"/>
+                                                                        <buttonConfiguration key="configuration" style="plain" image="wonsign.circle" catalog="system" title="계좌송금"/>
+                                                                    </button>
+                                                                </subviews>
                                                                 <color key="backgroundColor" red="0.66322871800330507" green="0.66498726932028607" blue="0.8098718523979187" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <constraints>
+                                                                    <constraint firstItem="E5e-Q7-4gj" firstAttribute="top" secondItem="gIs-qQ-TRY" secondAttribute="top" id="00J-GD-3zi"/>
+                                                                    <constraint firstItem="E5e-Q7-4gj" firstAttribute="leading" secondItem="gIs-qQ-TRY" secondAttribute="leading" id="4Ha-WB-DY6"/>
+                                                                    <constraint firstAttribute="trailing" secondItem="E5e-Q7-4gj" secondAttribute="trailing" id="MyE-CG-vbo"/>
+                                                                    <constraint firstAttribute="bottom" secondItem="E5e-Q7-4gj" secondAttribute="bottom" id="U5O-UO-ydH"/>
+                                                                </constraints>
                                                             </view>
                                                         </subviews>
                                                     </stackView>
@@ -291,6 +319,12 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="150" id="XMs-5S-Xz8"/>
                                         </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                     </stackView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -437,8 +471,10 @@
         <image name="location.fill" catalog="system" width="128" height="119"/>
         <image name="person" catalog="system" width="128" height="121"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
+        <image name="plus" catalog="system" width="128" height="113"/>
         <image name="rectangle.3.group.bubble.left" catalog="system" width="128" height="110"/>
         <image name="rectangle.3.group.bubble.left.fill" catalog="system" width="128" height="110"/>
+        <image name="wonsign.circle" catalog="system" width="128" height="123"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
