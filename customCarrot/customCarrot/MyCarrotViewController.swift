@@ -12,39 +12,37 @@ class MyCarrotViewController: UIViewController {
     @IBOutlet weak var tblView: UITableView!
     @IBOutlet weak var lbCarrot: UILabel!
     
+    @IBOutlet weak var btnSetting: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
         self.navigationController?.isNavigationBarHidden = true
         let carrotView = MyCarrotHeader.instanceFromNib()
         tblView.tableHeaderView = carrotView
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
     
+    @IBAction func btnSetting(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
+       
+    }
+    
+
+
 }
+
 
 extension MyCarrotViewController: UITableViewDelegate, UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 4
+        return 5
     }
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         switch section {
         case 0: return "나의 거래"
         case 1: return "나의 동네생활"
-        case 2: return "나의 비즈니스"
-        case 3: return "기타"
+        case 2: return "알바 관리"
+        case 3: return "나의 비즈니스"
+        case 4: return "기타"
         default: return nil
         }
     }
@@ -52,8 +50,9 @@ extension MyCarrotViewController: UITableViewDelegate, UITableViewDataSource {
         switch section {
         case 0: return 4
         case 1: return 1
-        case 2: return 3
-        case 3: return 6
+        case 2: return 1
+        case 3: return 3
+        case 4: return 6
         default: return 0
         }
     }

@@ -1,5 +1,5 @@
 //
-//  navigationCellTableViewCell.swift
+//  customCell.swift
 //  customCarrot
 //
 //  Created by 이용수 on 2023/05/10.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class navigationCellTableViewCell: UITableViewCell {
+class CustomCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()

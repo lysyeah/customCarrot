@@ -10,25 +10,27 @@
 		DA20B4ED2A1253620020B70E /* MyCarrotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA20B4EC2A1253620020B70E /* MyCarrotViewController.swift */; };
 		DA20B4EF2A1255050020B70E /* MyCarrotHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA20B4EE2A1255050020B70E /* MyCarrotHeader.xib */; };
 		DA20B4F12A1255D30020B70E /* MyCarrotHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA20B4F02A1255D30020B70E /* MyCarrotHeader.swift */; };
+		F4AE4AE32A14E67C000F5941 /* ViewOfBtnSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AE4AE22A14E67C000F5941 /* ViewOfBtnSetting.swift */; };
 		F4C020792A0B6DC600480A74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C020782A0B6DC600480A74 /* AppDelegate.swift */; };
 		F4C0207B2A0B6DC600480A74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C0207A2A0B6DC600480A74 /* SceneDelegate.swift */; };
 		F4C020802A0B6DC600480A74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C0207E2A0B6DC600480A74 /* Main.storyboard */; };
 		F4C020822A0B6DC800480A74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4C020812A0B6DC800480A74 /* Assets.xcassets */; };
 		F4C020852A0B6DC800480A74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C020832A0B6DC800480A74 /* LaunchScreen.storyboard */; };
-		F4C0208D2A0B705800480A74 /* neighborhoodController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C0208C2A0B705800480A74 /* neighborhoodController.swift */; };
-		F4C0208F2A0B70BA00480A74 /* nearbyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C0208E2A0B70BA00480A74 /* nearbyController.swift */; };
-		F4C020912A0B71A300480A74 /* chatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C020902A0B71A300480A74 /* chatController.swift */; };
-		F4C020932A0B750600480A74 /* myCarrotController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C020922A0B750600480A74 /* myCarrotController.swift */; };
-		F4C020952A0B752A00480A74 /* homeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C020942A0B752A00480A74 /* homeController.swift */; };
-		F4C020972A0B767800480A74 /* navigationCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C020962A0B767800480A74 /* navigationCellTableViewCell.swift */; };
-		F4C020992A0B79F700480A74 /* navigationConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C020982A0B79F700480A74 /* navigationConroller.swift */; };
-		F4C0209B2A0B7D8800480A74 /* customCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C0209A2A0B7D8800480A74 /* customCell.swift */; };
+		F4C0208D2A0B705800480A74 /* NeighborhoodController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C0208C2A0B705800480A74 /* NeighborhoodController.swift */; };
+		F4C0208F2A0B70BA00480A74 /* NearbyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C0208E2A0B70BA00480A74 /* NearbyController.swift */; };
+		F4C020912A0B71A300480A74 /* ChatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C020902A0B71A300480A74 /* ChatController.swift */; };
+		F4C020932A0B750600480A74 /* MyCarrotController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C020922A0B750600480A74 /* MyCarrotController.swift */; };
+		F4C020952A0B752A00480A74 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C020942A0B752A00480A74 /* HomeController.swift */; };
+		F4C020972A0B767800480A74 /* NavigationCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C020962A0B767800480A74 /* NavigationCellTableViewCell.swift */; };
+		F4C020992A0B79F700480A74 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C020982A0B79F700480A74 /* NavigationController.swift */; };
+		F4C0209B2A0B7D8800480A74 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C0209A2A0B7D8800480A74 /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DA20B4EC2A1253620020B70E /* MyCarrotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCarrotViewController.swift; sourceTree = "<group>"; };
 		DA20B4EE2A1255050020B70E /* MyCarrotHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCarrotHeader.xib; sourceTree = "<group>"; };
 		DA20B4F02A1255D30020B70E /* MyCarrotHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCarrotHeader.swift; sourceTree = "<group>"; };
+		F4AE4AE22A14E67C000F5941 /* ViewOfBtnSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewOfBtnSetting.swift; sourceTree = "<group>"; };
 		F4C020752A0B6DC600480A74 /* customCarrot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = customCarrot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4C020782A0B6DC600480A74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4C0207A2A0B6DC600480A74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,14 +38,14 @@
 		F4C020812A0B6DC800480A74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4C020842A0B6DC800480A74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4C020862A0B6DC800480A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F4C0208C2A0B705800480A74 /* neighborhoodController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = neighborhoodController.swift; sourceTree = "<group>"; };
-		F4C0208E2A0B70BA00480A74 /* nearbyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nearbyController.swift; sourceTree = "<group>"; };
-		F4C020902A0B71A300480A74 /* chatController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatController.swift; sourceTree = "<group>"; };
-		F4C020922A0B750600480A74 /* myCarrotController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCarrotController.swift; sourceTree = "<group>"; };
-		F4C020942A0B752A00480A74 /* homeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = homeController.swift; path = ../homeController.swift; sourceTree = "<group>"; };
-		F4C020962A0B767800480A74 /* navigationCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigationCellTableViewCell.swift; sourceTree = "<group>"; };
-		F4C020982A0B79F700480A74 /* navigationConroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigationConroller.swift; sourceTree = "<group>"; };
-		F4C0209A2A0B7D8800480A74 /* customCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customCell.swift; sourceTree = "<group>"; };
+		F4C0208C2A0B705800480A74 /* NeighborhoodController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeighborhoodController.swift; sourceTree = "<group>"; };
+		F4C0208E2A0B70BA00480A74 /* NearbyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyController.swift; sourceTree = "<group>"; };
+		F4C020902A0B71A300480A74 /* ChatController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatController.swift; sourceTree = "<group>"; };
+		F4C020922A0B750600480A74 /* MyCarrotController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCarrotController.swift; sourceTree = "<group>"; };
+		F4C020942A0B752A00480A74 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeController.swift; path = ../HomeController.swift; sourceTree = "<group>"; };
+		F4C020962A0B767800480A74 /* NavigationCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationCellTableViewCell.swift; sourceTree = "<group>"; };
+		F4C020982A0B79F700480A74 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		F4C0209A2A0B7D8800480A74 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,14 +78,15 @@
 		F4C020772A0B6DC600480A74 /* customCarrot */ = {
 			isa = PBXGroup;
 			children = (
-				F4C0209A2A0B7D8800480A74 /* customCell.swift */,
-				F4C020982A0B79F700480A74 /* navigationConroller.swift */,
-				F4C020942A0B752A00480A74 /* homeController.swift */,
-				F4C020922A0B750600480A74 /* myCarrotController.swift */,
-				F4C020962A0B767800480A74 /* navigationCellTableViewCell.swift */,
-				F4C020902A0B71A300480A74 /* chatController.swift */,
-				F4C0208E2A0B70BA00480A74 /* nearbyController.swift */,
-				F4C0208C2A0B705800480A74 /* neighborhoodController.swift */,
+				F4AE4AE22A14E67C000F5941 /* ViewOfBtnSetting.swift */,
+				F4C0209A2A0B7D8800480A74 /* CustomCell.swift */,
+				F4C020982A0B79F700480A74 /* NavigationController.swift */,
+				F4C020942A0B752A00480A74 /* HomeController.swift */,
+				F4C020922A0B750600480A74 /* MyCarrotController.swift */,
+				F4C020962A0B767800480A74 /* NavigationCellTableViewCell.swift */,
+				F4C020902A0B71A300480A74 /* ChatController.swift */,
+				F4C0208E2A0B70BA00480A74 /* NearbyController.swift */,
+				F4C0208C2A0B705800480A74 /* NeighborhoodController.swift */,
 				DA20B4EC2A1253620020B70E /* MyCarrotViewController.swift */,
 				F4C020782A0B6DC600480A74 /* AppDelegate.swift */,
 				F4C0207A2A0B6DC600480A74 /* SceneDelegate.swift */,
@@ -169,18 +172,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4C020992A0B79F700480A74 /* navigationConroller.swift in Sources */,
+				F4AE4AE32A14E67C000F5941 /* ViewOfBtnSetting.swift in Sources */,
+				F4C020992A0B79F700480A74 /* NavigationController.swift in Sources */,
 				DA20B4F12A1255D30020B70E /* MyCarrotHeader.swift in Sources */,
-				F4C0208D2A0B705800480A74 /* neighborhoodController.swift in Sources */,
-				F4C0209B2A0B7D8800480A74 /* customCell.swift in Sources */,
+				F4C0208D2A0B705800480A74 /* NeighborhoodController.swift in Sources */,
+				F4C0209B2A0B7D8800480A74 /* CustomCell.swift in Sources */,
 				DA20B4ED2A1253620020B70E /* MyCarrotViewController.swift in Sources */,
 				F4C020792A0B6DC600480A74 /* AppDelegate.swift in Sources */,
-				F4C0208F2A0B70BA00480A74 /* nearbyController.swift in Sources */,
+				F4C0208F2A0B70BA00480A74 /* NearbyController.swift in Sources */,
 				F4C0207B2A0B6DC600480A74 /* SceneDelegate.swift in Sources */,
-				F4C020932A0B750600480A74 /* myCarrotController.swift in Sources */,
-				F4C020972A0B767800480A74 /* navigationCellTableViewCell.swift in Sources */,
-				F4C020952A0B752A00480A74 /* homeController.swift in Sources */,
-				F4C020912A0B71A300480A74 /* chatController.swift in Sources */,
+				F4C020932A0B750600480A74 /* MyCarrotController.swift in Sources */,
+				F4C020972A0B767800480A74 /* NavigationCellTableViewCell.swift in Sources */,
+				F4C020952A0B752A00480A74 /* HomeController.swift in Sources */,
+				F4C020912A0B71A300480A74 /* ChatController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

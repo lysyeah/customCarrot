@@ -7,7 +7,7 @@
 
 import UIKit
 
-class neighborhoodController: UIViewController {
+class NeighborhoodController: UIViewController {
 
    
 }

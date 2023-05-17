@@ -7,6 +7,6 @@
 
 import UIKit
 
-class navigationController : UINavigationController {
+class NavigationController : UINavigationController {
     
 }

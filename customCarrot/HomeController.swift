@@ -7,7 +7,7 @@
 
 import UIKit
 
-class homecontroller : UIViewController{
+class Homecontroller : UIViewController{
     
     
 }
