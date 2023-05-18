@@ -440,7 +440,7 @@
         <!--View Of Btn Setting-->
         <scene sceneID="aN5-hI-wuP">
             <objects>
-                <viewController id="85K-Re-y4v" customClass="ViewOfBtnSetting" customModule="customCarrot" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewOfBtnSetting" id="85K-Re-y4v" customClass="ViewOfBtnSetting" customModule="customCarrot" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6KT-Tg-mQf">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -448,10 +448,13 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E9l-1F-qjy">
                                 <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XbC-0z-Rfq">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XbC-0z-Rfq" userLabel="btnBack">
                                         <rect key="frame" x="19" y="4.6666666666666643" width="54" height="35"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="뒤로"/>
+                                        <connections>
+                                            <action selector="btnBack:" destination="85K-Re-y4v" eventType="touchUpInside" id="DoG-QJ-Odw"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
@@ -480,10 +483,14 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="UJL-q6-iSs"/>
+                    <connections>
+                        <outlet property="btnBack" destination="XbC-0z-Rfq" id="9HF-CV-HCy"/>
+                        <outlet property="tblView" destination="N6q-J3-xWA" id="3o7-tf-niC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xHQ-he-yn4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2850" y="2251"/>
+            <point key="canvasLocation" x="2849.6183206106871" y="2250.7042253521126"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="n3O-t2-eJC">

@@ -23,8 +23,9 @@ class MyCarrotViewController: UIViewController {
     
     
     @IBAction func btnSetting(_ sender: Any) {
-        self.navigationController?.popViewController(animated: true)
-       
+        guard let uvc = self.storyboard?.instantiateViewController(withIdentifier: "ViewOfBtnSetting") else {return}
+        self.navigationController?.pushViewController(uvc, animated: true)
+
     }
     
 
