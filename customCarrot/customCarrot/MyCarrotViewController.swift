@@ -13,9 +13,10 @@ class MyCarrotViewController: UIViewController {
     @IBOutlet weak var lbCarrot: UILabel!
     
     @IBOutlet weak var btnSetting: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         self.navigationController?.isNavigationBarHidden = true
         let carrotView = MyCarrotHeader.instanceFromNib()
         tblView.tableHeaderView = carrotView
@@ -23,20 +24,22 @@ class MyCarrotViewController: UIViewController {
     
     
     @IBAction func btnSetting(_ sender: Any) {
-        guard let uvc = self.storyboard?.instantiateViewController(withIdentifier: "ViewOfBtnSetting") else {return}
-        self.navigationController?.pushViewController(uvc, animated: true)
-
+        //스토리보드에서 우클릭 드래그로 이동하게끔 해놓고 코드로도 이동하게 하니까 두번이 된거다.
+        /*        guard let uvc = self.storyboard?.instantiateViewController(withIdentifier: "ViewOfBtnSetting") else {return}
+                self.navigationController?.pushViewController(uvc, animated: true)
+         */
     }
-    
-
 
 }
 
 
 extension MyCarrotViewController: UITableViewDelegate, UITableViewDataSource {
+    
+    //UITableViewDataSource
     func numberOfSections(in tableView: UITableView) -> Int {
         return 5
     }
+    
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         switch section {
         case 0: return "나의 거래"
@@ -47,6 +50,7 @@ extension MyCarrotViewController: UITableViewDelegate, UITableViewDataSource {
         default: return nil
         }
     }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         switch section {
         case 0: return 4
@@ -58,14 +62,13 @@ extension MyCarrotViewController: UITableViewDelegate, UITableViewDataSource {
         }
     }
     
+    //UITableViewDelegate
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
         return UITableViewCell()
     }
-    
-    
 }
 
+//delegate
 extension MyCarrotViewController: UIScrollViewDelegate {
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         print(scrollView.contentOffset.y)
