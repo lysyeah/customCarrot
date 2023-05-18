@@ -10,7 +10,6 @@
 		DA20B4ED2A1253620020B70E /* MyCarrotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA20B4EC2A1253620020B70E /* MyCarrotViewController.swift */; };
 		DA20B4EF2A1255050020B70E /* MyCarrotHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA20B4EE2A1255050020B70E /* MyCarrotHeader.xib */; };
 		DA20B4F12A1255D30020B70E /* MyCarrotHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA20B4F02A1255D30020B70E /* MyCarrotHeader.swift */; };
-		F477EB452A1623510033E45A /* MyCarrotSettingBtnSectionOneTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F477EB442A1623510033E45A /* MyCarrotSettingBtnSectionOneTableViewCell.swift */; };
 		F4AE4AE32A14E67C000F5941 /* ViewOfBtnSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AE4AE22A14E67C000F5941 /* ViewOfBtnSetting.swift */; };
 		F4C020792A0B6DC600480A74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C020782A0B6DC600480A74 /* AppDelegate.swift */; };
 		F4C0207B2A0B6DC600480A74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C0207A2A0B6DC600480A74 /* SceneDelegate.swift */; };
@@ -31,7 +30,6 @@
 		DA20B4EC2A1253620020B70E /* MyCarrotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCarrotViewController.swift; sourceTree = "<group>"; };
 		DA20B4EE2A1255050020B70E /* MyCarrotHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCarrotHeader.xib; sourceTree = "<group>"; };
 		DA20B4F02A1255D30020B70E /* MyCarrotHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCarrotHeader.swift; sourceTree = "<group>"; };
-		F477EB442A1623510033E45A /* MyCarrotSettingBtnSectionOneTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCarrotSettingBtnSectionOneTableViewCell.swift; sourceTree = "<group>"; };
 		F4AE4AE22A14E67C000F5941 /* ViewOfBtnSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewOfBtnSetting.swift; sourceTree = "<group>"; };
 		F4C020752A0B6DC600480A74 /* customCarrot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = customCarrot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4C020782A0B6DC600480A74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,7 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				F4AE4AE22A14E67C000F5941 /* ViewOfBtnSetting.swift */,
-				F477EB442A1623510033E45A /* MyCarrotSettingBtnSectionOneTableViewCell.swift */,
 				F4C0209A2A0B7D8800480A74 /* CustomCell.swift */,
 				F4C020982A0B79F700480A74 /* NavigationController.swift */,
 				F4C020942A0B752A00480A74 /* HomeController.swift */,
@@ -176,7 +173,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4AE4AE32A14E67C000F5941 /* ViewOfBtnSetting.swift in Sources */,
-				F477EB452A1623510033E45A /* MyCarrotSettingBtnSectionOneTableViewCell.swift in Sources */,
 				F4C020992A0B79F700480A74 /* NavigationController.swift in Sources */,
 				DA20B4F12A1255D30020B70E /* MyCarrotHeader.swift in Sources */,
 				F4C0208D2A0B705800480A74 /* NeighborhoodController.swift in Sources */,

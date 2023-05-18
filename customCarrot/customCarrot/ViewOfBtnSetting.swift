@@ -15,6 +15,7 @@ class ViewOfBtnSetting : UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         tblView.dataSource = self
         tblView.delegate = self
         
@@ -75,6 +76,8 @@ extension ViewOfBtnSetting : UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         return UITableViewCell()
     }
+    
+   
 }
 
 /*
