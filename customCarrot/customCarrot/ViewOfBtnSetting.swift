@@ -36,7 +36,6 @@ class ViewOfBtnSetting : UIViewController {
         super.viewWillAppear(animated)
         let textAttributes = [NSAttributedString.Key.foregroundColor:UIColor.green]
         self.navigationController?.navigationBar.titleTextAttributes = textAttributes
-
     }
      */
     
@@ -47,6 +46,9 @@ class ViewOfBtnSetting : UIViewController {
 }
 
 extension ViewOfBtnSetting : UITableViewDelegate, UITableViewDataSource {
+    
+    
+    
     
     //UITableViewDataSource
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -76,6 +78,8 @@ extension ViewOfBtnSetting : UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         return UITableViewCell()
     }
+    
+
     
    
 }
