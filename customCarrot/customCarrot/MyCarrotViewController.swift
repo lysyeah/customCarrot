@@ -32,7 +32,7 @@ class MyCarrotViewController: UIViewController {
 
 }
 
-
+// MARK: 나의 당근 페이지
 extension MyCarrotViewController: UITableViewDelegate, UITableViewDataSource {
     
     //UITableViewDataSource

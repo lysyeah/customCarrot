@@ -43,9 +43,13 @@ class ViewOfBtnSetting : UIViewController {
        self.navigationController?.popViewController(animated: true)
     }
     
+    var item : [String] = []
+    var items = [["알림 및 소리","방해금치 시간 설정"], ["계정 / 정보 관리", "모아보기 사용자 관리", "차단 사용자 관리", "게시글 미노출 사용자 관리", "기타 설정"], ["공지사항", "국가 변경", "언어 설정", "캐시 데이터 삭제하기", "최신버전 업데이트", "로그아웃", "탈퇴하기"]]
+    
 }
-
+// MARK: 나의 당근 세팅페이지
 extension ViewOfBtnSetting : UITableViewDelegate, UITableViewDataSource {
+    
     
     
     
@@ -79,10 +83,8 @@ extension ViewOfBtnSetting : UITableViewDelegate, UITableViewDataSource {
         return UITableViewCell()
     }
     
-
-    
-   
 }
+
 
 /*
  //delegate
